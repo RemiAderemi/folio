@@ -1,0 +1,82 @@
+
+:root{
+    /* visit https://colorcodes.io/gray/ for color codes */
+    --color-byellow:#E6E3B5;
+    --color-byellow:#BFBD97;
+    --color-byellow:#807E65;
+    --color-byellow:##E6E3B5;
+    --color-funyellow:#DECE85;
+    --color-fnyellowvariation1:#FFF1B3;
+    --color-fnyellowvariation2:#AB9B55;
+    --color-moonyellow:#BFBEA3, #807F6C, #403F36, #E6E4C3, #B3B086;
+    --color-grey:#9EA3A8, #626569,#E6EDf5, #C2C8CF,#C2C8CF, #FFFFFF,#9C8C73,#9C8C73;
+    --color-byellow:#E6E3B5;
+
+}
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    /* position: absolute; */
+    /* top: 80vh; */
+    
+}
+.page2{
+    height: auto;
+    background-color: var(--color-byellow);
+    padding: 1rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    
+
+}
+.page2 .btn{
+    width: 500px;
+}
+.page3{
+    height: auto;
+    background-color: var(--color-byellow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 2rem;
+}
+.subtitle{
+    display: flex;
+    justify-content:space-between ;
+}
+.subtitle button{
+    float: right;
+}
+.tabs{
+    display: flex;
+}
+.tabs img{
+    width: 70%;
+    height: 28vh;
+}
+.white{
+    display: block;
+    background-color: snow;
+    margin: .5rem;
+    padding: .5rem;
+    width: 80%;
+    height: auto;
+}
+#white{
+    display: flex;
+}
+/* .white .skills{
+
+} */
+.cv{
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    align-items: center;
+    /* justify-items: center;
+    justify-content: center; */
+}
